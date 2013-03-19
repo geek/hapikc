@@ -1,0 +1,21 @@
+{
+    "servers": {
+        "http": {
+            "host": "0.0.0.0",
+            "port": 8080
+        },
+        "admin": {
+            "host": "0.0.0.0",
+            "port": 8081
+        }
+    },
+    "cache": "redis",
+    "plugins": {
+        "../../../helloplugins": {},
+        "good": {
+            "subscribers": {
+                "console": ["ops", "request"]
+            }
+        }
+    }
+}

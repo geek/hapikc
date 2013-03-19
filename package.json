@@ -1,0 +1,23 @@
+{
+  "name": "hapikc",
+  "version": "0.0.0",
+  "description": "Hapi Examples",
+  "dependencies": {
+    "hapi": "~0.15.x",
+    "redis": "0.8.x",
+    "mongodb": "1.2.x",
+    "good": "0.1.x"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wpreul/hapikc.git"
+  },
+  "keywords": [
+    "hapi"
+  ],
+  "author": "Wyatt Preul",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "private": true
+}

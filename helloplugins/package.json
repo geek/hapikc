@@ -1,0 +1,24 @@
+{
+  "name": "helloplugins",
+  "version": "0.0.0",
+  "description": "Hapi Example Plugin",
+  "peerDependencies": {
+    "hapi": "~0.15.x"
+  },
+  "main": "plugin.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wpreul/hapikc.git"
+  },
+  "keywords": [
+    "hapi"
+  ],
+  "author": "Wyatt Preul",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "private": true
+}
